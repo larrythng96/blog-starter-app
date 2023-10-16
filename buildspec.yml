@@ -14,8 +14,7 @@ phases:
     commands:
       - echo Pushing the Docker image...
       - docker push $REPOSITORY_URI:$CODEBUILD_RESOLVED_SOURCE_VERSION
+      - echo '[{"name":"blog-starter-app","imageUri":"'$REPOSITORY_URI:$CODEBUILD_RESOLVED_SOURCE_VERSION'"}]' > imagedefinitions.json
 
 artifacts:
-  files:
-    - '**/*'
-  discard-paths: yes
+  files: imagedefinitions.json
