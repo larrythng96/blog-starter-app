@@ -16,3 +16,9 @@ phases:
       - docker build -t $REPOSITORY_URI:$DOCKER_TAG .
       - echo Pushing the Docker image...
       - docker push $REPOSITORY_URI:$DOCKER_TAG
+  post_build:
+    commands:
+      - echo '[{"name":"blog-starter-app-container","imageUri":"'$REPOSITORY_URI:$DOCKER_TAG'"}]' > imagedefinitions.json
+
+artifacts:
+  files: imagedefinitions.json
