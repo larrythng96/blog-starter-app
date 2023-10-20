@@ -10,7 +10,7 @@ Traditionally, Next.js applications have been deployed using Vercel, an out-of-t
 
 ## CI/CD Pipeline Architecture
 
-### _Please refer to Project 2 Presentation.pptx found in root directory for further information (there is an architecture diagram there which makes it easier to illustrate than words)_
+_Please refer to Project 2 Presentation.pptx found in root directory for further information (there is an architecture diagram there which makes it easier to illustrate than words)_
 
 ### Outline: Local Machine > GitHub > AWS CodePipeline > AWS CodeBuild > AWS ECR > AWS ECS + Fargate
 
