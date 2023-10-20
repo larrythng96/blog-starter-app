@@ -10,9 +10,7 @@ Traditionally, Next.js applications have been deployed using Vercel, an out-of-t
 
 ## CI/CD Pipeline Architecture
 
-### Outline: Local Machine > GitHub > AWS CodePipeline > AWS CodeBuild > AWS ECR > AWS ECS + Fargate
-
-## CI/CD Pipeline Architecture
+### _Please refer to Project 2 Presentation.pptx found in root directory for further information (there is an architecture diagram there which makes it easier to illustrate than words)_
 
 ### Outline: Local Machine > GitHub > AWS CodePipeline > AWS CodeBuild > AWS ECR > AWS ECS + Fargate
 
@@ -50,8 +48,7 @@ Upon receiving notification that there is a new image in ECR, ECS will trigger b
 
 Upon successful deployment, you will get a server IP address, with your app deployed there!
 
-### _Please refer to Project 2 Presentation.pptx found in root directory for further information_
-
+<br>
 <hr>
 
 ## Source Code Information
