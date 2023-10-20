@@ -1,4 +1,20 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# Creating an AWS CI/CD Pipeline for serverless Next.JS Applications
+
+Author: Larry Thng
+
+GitHub Repo URL: https://github.com/larrythng96/blog-starter-app
+
+AWS App URL: http://3.239.79.36:3000/ (will be taken down after 22/10/2023 to conserve resources)
+
+Outline: Traditionally, Next.js applications have been deployed using Vercel, a CI/CD pipeline designed for serverless Next.js projects. However, due to several limitations, such as cost and vendor lock-in, this project explores deploying Next.js applications on AWS, especially since there's limited online resources detailing this process
+
+Architecture: GitHub > AWS CodePipeline > AWS CodeBuild > AWS ECR > AWS ECS + Fargate
+
+**_ Please refer to Project 2 Presentation.pptx found in root directory for further information _**
+
+# Information about the Source Code
+
+## A statically generated blog example using Next.js, Markdown, and TypeScript
 
 This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
 
